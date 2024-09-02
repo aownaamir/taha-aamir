@@ -52,10 +52,13 @@
 //   });
 // }
 
+// @ts-ignore
+import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
+
 /** @type {import('tailwindcss').Config} */
 import defaultTheme from "tailwindcss/defaultTheme";
 import colors from "tailwindcss/colors";
-import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
+// import flattenColorPalette from "tailwindcss/lib/util/flattenColorPalette";
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
