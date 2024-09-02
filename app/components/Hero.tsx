@@ -26,13 +26,7 @@ function Hero() {
       <StarsBackground />
       <div className="relative flex flex-col gap-10 justify-center items-center">
         <div className="w-36 h-36 rounded-full overflow-hidden">
-          <Image
-            src={face}
-            alt="Taha"
-            width={"auto"}
-            height={"auto"}
-            className="w-full h-full"
-          />
+          <Image src={face} alt="Taha" className="w-full h-full" />
         </div>
         <div className="w-full px-10 lg:px-0 lg:w-[600px] flex flex-col justify-center items-center">
           <div className="flex flex-col justify-center items-center gap-5">
