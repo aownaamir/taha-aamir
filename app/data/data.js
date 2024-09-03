@@ -11,7 +11,6 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BiSolidBusSchool } from "react-icons/bi";
 import { FaUniversity } from "react-icons/fa";
-import { GiIsland } from "react-icons/gi";
 import { FaMoneyBill1Wave } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
@@ -23,7 +22,7 @@ export const aboutMe = [
   {
     title: "Residence",
     svg: Person,
-    num1: "25 May 2003",
+    num1: "25 May 2002",
     num2: "Lahore, Pakistan",
     icon1: FaBirthdayCake,
     icon2: FaMapMarkerAlt,

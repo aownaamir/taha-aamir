@@ -8,7 +8,7 @@ import { StarsBackground } from "./components/ui/stars-background";
 
 function Home() {
   return (
-    <div className=" overflow-hidden">
+    <div className="">
       <Hero />
       <About />
       <Experience />
