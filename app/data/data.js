@@ -15,7 +15,7 @@ import { FaMoneyBill1Wave } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { BiMessage } from "react-icons/bi";
-import { IoBodyOutline } from "react-icons/io5";
+import { TbWorld } from "react-icons/tb";
 import { IoIosHome } from "react-icons/io";
 
 export const aboutMe = [
@@ -94,22 +94,22 @@ export const links = [
   {
     title: "LinkedIn",
     icon: <FaLinkedinIn />,
-    href: "#",
+    href: "https://www.linkedin.com/in/taha-aamir",
   },
 
   {
     title: "Instagram",
     icon: <FaInstagram />,
-    href: "#",
-  },
-  {
-    title: "Message",
-    icon: <BiMessage />,
-    href: "#",
+    href: "https://www.instagram.com/tahaaamir80?igsh=MTUxbzk0aTk0NGUw",
   },
   {
     title: "Website",
-    icon: <IoBodyOutline />,
-    href: "#",
+    icon: <TbWorld />,
+    href: "https://taha-aamir.vercel.app/",
   },
+  // {
+  //   title: "Message",
+  //   icon: <BiMessage />,
+  //   href: "mailto",
+  // },
 ];

@@ -41,9 +41,11 @@ function Hero() {
               and brand management. Experienced in creating effective campaigns
               and using analytics to drive results.
             </p>
-            <button className="w-24 h-10 border-[1.5px] border-slate-300 text-md 400:text-lg rounded-md text-slate-300">
-              Contact
-            </button>
+            <a href="#contact">
+              <button className="w-24 h-10 border-[1.5px] border-slate-300 text-md 400:text-lg rounded-md text-slate-300">
+                Contact
+              </button>
+            </a>
           </div>
         </div>
       </div>
