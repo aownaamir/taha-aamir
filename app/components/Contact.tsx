@@ -47,7 +47,7 @@ function Contact() {
       <SectionHeader title="Contact" />
       <div className="w-full h-[600px] 375:h-[490px]  lg:h-[300px]   flex flex-col lg:flex-row justify-center items-center">
         <div className=" w-full h-full   flex justify-center items-center">
-          <div className=" w-[90%]  relative">
+          <div className=" w-[90%]  relative mb-5">
             <p
               className={`text-slate-300 text-3xl lg:text-5xl leading-snug text-center font-semibold ${dancingScript.className}`}
             >
@@ -104,7 +104,7 @@ function Contact() {
           </form>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center  ">
+      <div className="w-full flex items-center justify-center  z-10">
         <FloatingDock
           items={links}
           desktopClassName="bg-transparent"
