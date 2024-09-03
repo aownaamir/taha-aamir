@@ -17,7 +17,7 @@ const roboto = Roboto({
 function Hero() {
   return (
     <div
-      className={`h-screen lg:h-[90vh]  flex relative bg-slate-950 items-center justify-center`}
+      className={`h-screen flex relative bg-slate-950 items-center justify-center`}
     >
       <ShootingStars />
       <StarsBackground />
