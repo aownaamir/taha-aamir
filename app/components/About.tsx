@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 
 function About() {
   return (
-    <div className="border border-white relative px-10 pt-10 w-full bg-slate-950 flex flex-col justify-center items-center">
+    <div className="relative px-10 pt-10 w-full bg-slate-950 flex flex-col justify-center items-center">
       <ShootingStars />
       <StarsBackground />
 
