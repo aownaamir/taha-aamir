@@ -6,7 +6,7 @@ import SectionHeader from "./SectionHeader";
 
 function Experience() {
   return (
-    <div className=" relative px-10 pt-10 h-[115vh] 360:h-[135vh] 375:h-[150vh] 380:h-[120vh] lg:h-[70vh] bg-slate-950 flex flex-col justify-center items-center">
+    <div className="w-full border border-white  relative px-10 pt-10 bg-slate-950 flex flex-col justify-center items-center">
       <ShootingStars />
       <StarsBackground />
       <SectionHeader title="Experience" />

@@ -14,7 +14,7 @@ function Contact() {
   const year = new Date().getFullYear();
 
   return (
-    <div className="relative px-6 lg:px-20 pt-10 h-[90vh] 360:h-[100vh] 380:h-[80vh] 400:h-[70vh] sm:h-[115vh] lg:h-[75vh] xl:h-[55vh] bg-slate-950 flex flex-col justify-center items-center gap-2">
+    <div className="w-full border border-white  relative px-6 lg:px-20 pt-10  bg-slate-950 flex flex-col justify-center items-center gap-2">
       <ShootingStars />
       <StarsBackground />
       <SectionHeader title="Contact" />
