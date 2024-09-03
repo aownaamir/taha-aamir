@@ -88,7 +88,7 @@ module.exports = {
   plugins: [addVariablesForColors],
 };
 
-function addVariablesForColors({ addBase, theme }) {
+function addVariablesForColors({ addBase, theme }: any) {
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
