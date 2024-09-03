@@ -1,8 +1,3 @@
-import face from "@/public/square.jpg";
-import Image from "next/image";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { HiOfficeBuilding } from "react-icons/hi";
-import { IoStar } from "react-icons/io5";
 import { experiences } from "../data/data";
 import { Button } from "./ui/moving-border";
 import { ShootingStars } from "./ui/shooting-stars";
@@ -11,18 +6,18 @@ import SectionHeader from "./SectionHeader";
 
 function Experience() {
   return (
-    <div className="relative px-10 pt-10 h-[115vh] lg:h-[80vh] bg-slate-950">
+    <div className=" relative px-10 pt-10 h-[115vh] 360:h-[135vh] 375:h-[150vh] 380:h-[120vh] lg:h-[70vh] bg-slate-950 flex flex-col justify-center items-center">
       <ShootingStars />
       <StarsBackground />
       <SectionHeader title="Experience" />
 
-      <div className="w-full mt-16  flex justify-center items-center">
+      <div className=" w-full mt-12  flex justify-center items-center">
         <div className="flex flex-col lg:grid grid-cols-3 gap-x-12 gap-y-9 justify-center items-center">
           {experiences.map((item, i) => (
             <Button
               key={item.id}
               duration={Math.floor(Math.random() * 10000) + 10000}
-              className="w-[280px] h-[110px]"
+              className="w-[280px] h-[110px] pointer-events-none"
               containerClassName="w-[280px] h-[110px]"
             >
               <div className="w-full flex justify-center items-center gap-2">

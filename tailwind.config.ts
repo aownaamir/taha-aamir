@@ -78,10 +78,12 @@ module.exports = {
       borderColors: {
         slate: "#cbd5e1",
       },
-      fontFamily: {
-        // sans: ["Roboto", "sans-serif"],
-        // sans: ["Nerko One", "cursive"],
-        sevillana: ["Sevillana", "cursive"],
+      screens: {
+        345: "345px",
+        360: "360px",
+        375: "374px",
+        380: "380px",
+        400: "400px",
       },
     },
   },

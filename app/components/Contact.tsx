@@ -1,11 +1,6 @@
 import { links } from "../data/data";
 import SectionHeader from "./SectionHeader";
-import {
-  FloatingDock,
-  FloatingDockDesktop,
-  FloatingDockMobile,
-  IconContainer,
-} from "./ui/floating-dock";
+import { FloatingDock } from "./ui/floating-dock";
 import { ShootingStars } from "./ui/shooting-stars";
 import { StarsBackground } from "./ui/stars-background";
 import { Dancing_Script } from "next/font/google";
@@ -19,12 +14,12 @@ function Contact() {
   const year = new Date().getFullYear();
 
   return (
-    <div className="relative px-20 pt-10 h-[115vh] lg:h-[90vh] bg-slate-950">
+    <div className="relative px-6 lg:px-20 pt-10 h-[90vh] 360:h-[100vh] 380:h-[80vh] 400:h-[70vh] sm:h-[115vh] lg:h-[75vh] xl:h-[55vh] bg-slate-950 flex flex-col justify-center items-center gap-2">
       <ShootingStars />
       <StarsBackground />
       <SectionHeader title="Contact" />
-      <div className="w-full h-[820px] lg:h-[390px]   flex flex-col lg:flex-row justify-center items-center">
-        <div className="w-full h-full   flex justify-center items-center">
+      <div className="w-full h-[600px] 375:h-[490px]  lg:h-[300px]   flex flex-col lg:flex-row justify-center items-center">
+        <div className=" w-full h-full   flex justify-center items-center">
           <div className=" w-[90%]  relative">
             <p
               className={`text-slate-300 text-3xl lg:text-5xl leading-snug text-center font-semibold ${dancingScript.className}`}
@@ -36,7 +31,7 @@ function Contact() {
             </p>
           </div>
         </div>
-        <div className="w-full h-full  flex justify-center items-center">
+        <div className=" w-full h-full  flex justify-center items-center">
           <form
             action=""
             className=" w-full z-10 flex flex-col justify-center items-center gap-7 lg::gap-10"
