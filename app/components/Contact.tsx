@@ -40,7 +40,7 @@ function Contact() {
   return (
     <div
       id="contact"
-      className="w-full  relative px-6 lg:px-20 pt-10  bg-slate-950 flex flex-col justify-center items-center gap-2"
+      className="w-full  relative px-6 lg:px-20 pt-10  bg-slate-950 flex flex-col justify-center items-center gap-5"
     >
       <ShootingStars />
       <StarsBackground />
